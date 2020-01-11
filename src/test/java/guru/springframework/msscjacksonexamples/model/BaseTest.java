@@ -8,7 +8,7 @@ import java.time.LocalDate;
 import java.time.OffsetDateTime;
 import java.util.UUID;
 
-public class BaseTest {
+abstract class BaseTest {
 
     @Autowired
     ObjectMapper objectMapper;
